@@ -29,20 +29,20 @@ variable "request_payer" {
 
 variable "block_public_acls" {
   type    = bool
-  default = false
+  default = true
 }
 
 variable "block_public_policy" {
   type    = bool
-  default = false
+  default = true
 }
 
 variable "ignore_public_acls" {
   type    = bool
-  default = false
+  default = true
 }
 
 variable "restrict_public_buckets" {
   type    = bool
-  default = false
+  default = true
 }
